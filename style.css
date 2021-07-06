@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  position: fixed;
+  width: 100vw;
+  height: 20vh;
+}
+h1 {
+  font-family: 'Space Mono', monospace;
+  font-size: 4em;
+  color: red;
+  position: absolute;
+  top:80%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: ;
+
+
+}
+
+#scarpa1 {
+width: 100vw;
+height: 100vh;
+background-color: yellow;
+position: relative;
+}
+#scarpa2 {
+width: 100vw;
+height: 100vh;
+background-color: red;
+position: relative;
+}
+#scarpa3 {
+width: 100vw;
+height: 100vh;
+background-color: dodgerblue;
+position: relative;
+}
+
+img {
+  width: 40%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 30px;
+}
+
+.scarpa:nth-of-type(2)>h1 {
+  color: white;
+}
+
+.scarpa:nth-of-type(3)>h1 {
+  color: yellow;
+}
